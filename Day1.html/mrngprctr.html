@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    const arr=[1,2,3];
+arr.push(4);
+arr.pop();
+console.log(arr)
+
+let arr=[10,20,30,40]
+console.log(arr.slice(1,3))
+
+const str="javaScript";
+console.log(str.indexOf("Script"))
+
+
+const obj={
+    name:"ameena",
+    age:45
+}
+console.log(obj.name)
+
+const x=10
+const y=5
+console.log(x > y ? "x is greater": "y is greater")
+
+
+const arr=[1,2,3,4];
+const [a, , b]=arr;
+console.log(a,b)
+
+function square(arr){
+    let emp=[]
+    for(i=0;i<arr.length;i++){
+        emp.push(arr[i]**2)
+    }
+    return emp
+}
+console.log(square([1,2,3,4]))
+
+
+function reversestring(str){
+    let rev=""
+    for(i=str.length-1;i>=0;i--){
+        
+        rev=rev+str[i]
+    }
+    return rev
+    
+    
+}
+console.log(reversestring("ameena"))
+
+function vowelsCount(str){
+    count=""
+    for(i=0;i<str.length;i++){
+        if(str[i]=="a"||str[i]=="e"||str[i]=="i"||str[i]=="o"||str[i]=="u")
+    count++
+
+    }
+
+    return count
+}
+console.log(vowelsCount("javascript"))
+
+function objkeys(keys){
+    
+    return keys
+
+}
+obj={
+     name:"ameena",
+     age:24,
+     married:"yes"
+
+}
+console.log(objkeys)
+
+
+function evenodd(num){
+    
+    for(i=0;i<num;i++){
+        if(i%num==0){
+            console.log("even")
+        }
+        else{
+            console.log("odd")
+        }
+        return num
+    }
+
+}
+    console.log(evenodd(7))
+
+    function square(str){
+        let emp=[ ]
+        for(i=0;i<=str.length;i++){
+            
+            emp.push(str[i]**2)
+        }
+        return emp;
+        
+    }
+    console.log(square([1,2,5]))
+  
+  
+  function reversestring(str){
+      rev=""
+      for(i=str.length-1;i>=0;i--){
+          
+          rev=rev+str.[i]
+      }
+      return rev
+      
+      
+  }
+  console.log(revesrestring("ameena"))
+  
+  function vowels(str){
+      count=0
+      for(i=0;i<str.length;i++){
+          if(str[i]=="a"||str[i]=="e"||str[i]=="i"||str[i]=="o"||str[i]=="u")
+          count++
+      }
+      return  count
+      
+      
+  }
+  console.log(vowels("ameena"))
+  
+  var a = {
+      name: "Ameena
+      age: 21
+  }
+  function keyss(obj){
+      
+    // return Object.keys(obj)
+     
+    let emp=[]
+    for(g in obj){
+        emp.push(g);
+    }
+    return emp;
+      
+  }
+  console.log(keyss(a))
+  
+  function variable(){
+  i=0;
+  do(){
+      i<str.length;
+      console.log(i)
+  }
+  while(i++)
+      return variable
+  }
+  console.log()
+  function evenodd(num){
+            sum=[]
+      for(i=0;i<num;i++){
+          
+          if(i%num==0){
+              sum.push(num[i])
+          }
+           return sum
+      }
+  
+  }
+      console.log(evenodd(7))
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+</body>
+</html>

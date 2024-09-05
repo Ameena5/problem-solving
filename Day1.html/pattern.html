@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+            debugger;
+         rows=5
+         odd=1
+         even=2
+         for(i=1;i<=rows;i++){
+            s=" "
+            for(j=1;j<=i;j++){
+                if(i%2==0){
+                    s=s+even+" "
+                    even=even+2
+                }
+                else{
+                    s=s+odd+" "
+                    odd=odd+2
+                }
+            }
+            console.log(s)
+         }
+
+    </script>
+</body>
+</html>
